@@ -37,10 +37,6 @@ header .logo
   transition: 0.5s;
   z-index: 2;
 }
-.showcase.active
-{
-  right: 300px;
-}
 
 .showcase video
 {
@@ -59,7 +55,7 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2b383e;
+  background: #6a6a6ae3;
   mix-blend-mode: overlay;
 }
 .text
@@ -111,10 +107,29 @@ header .logo
   letter-spacing: 6px;
 }
 
+.text .problem-text{
+  font-size: 1.2rem;
+}
+
 .navlinks{
   float: left;
   padding-left: 2vw;
   padding-right: 2vw;
+}
+
+.problem{
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  top: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
 }
 
 @media (max-width: 991px)
