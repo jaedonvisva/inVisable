@@ -74,7 +74,7 @@ header .logo
 }
 .text h3
 {
-  font-size: 4em;
+  font-size: 6vh;
   font-weight: 700;
   color: #fff;
   line-height: 1em;
@@ -82,7 +82,7 @@ header .logo
 }
 .text p
 {
-  font-size: 2rem;
+  font-size: 3.5vh;
   color: #fff;
   margin: 20px 0;
   font-weight: 400;
@@ -91,7 +91,7 @@ header .logo
 .text a
 {
   display: inline-block;
-  font-size: 1em;
+  font-size:2vh;
   background: #fff;
   padding: 10px 30px;
   text-transform: uppercase;
@@ -108,7 +108,7 @@ header .logo
 }
 
 .text .problem-text{
-  font-size: 1.2rem;
+  font-size: 4vh;
 }
 
 .navlinks{
@@ -146,5 +146,12 @@ header .logo
   .text h3
   {
     font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header .navlinks-container
+  {
+    visibility: hidden;
   }
 }
