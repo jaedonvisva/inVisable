@@ -5,6 +5,17 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 header
 {
   position: absolute;
@@ -17,6 +28,7 @@ header
   justify-content: space-between;
   align-items: center;
 }
+
 header .logo
 {
   color: #fff;
@@ -48,6 +60,7 @@ header .logo
   object-fit: cover;
   opacity: 0.8;
 }
+
 .overlay
 {
   position: absolute;
@@ -58,6 +71,7 @@ header .logo
   background: #6a6a6ae3;
   mix-blend-mode: overlay;
 }
+
 .text
 {
   position: relative;
@@ -72,6 +86,7 @@ header .logo
   line-height: 1em;
   text-transform: uppercase;
 }
+
 .text h3
 {
   font-size: 6vh;
@@ -80,6 +95,7 @@ header .logo
   line-height: 1em;
   text-transform: uppercase;
 }
+
 .text p
 {
   font-size: 3.5vh;
@@ -88,6 +104,7 @@ header .logo
   font-weight: 400;
   max-width: 700px;
 }
+
 .text a
 {
   display: inline-block;
@@ -102,12 +119,13 @@ header .logo
   letter-spacing: 2px;
   transition: 0.2s;
 }
+
 .text a:hover
 {
   letter-spacing: 6px;
 }
 
-.text .problem-text{
+.text .page-text{
   font-size: 4vh;
 }
 
@@ -117,7 +135,7 @@ header .logo
   padding-right: 2vw;
 }
 
-.problem{
+.page{
   position: relative;
   right: 0;
   width: 100%;
@@ -125,11 +143,27 @@ header .logo
   top: 100vh;
   padding: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background: #111;
   transition: 0.5s;
   z-index: 2;
+}
+
+.line-right{
+  border-right: thick solid #cba54d;
+}
+
+.accent-gold{
+  color: #cba54d;
+}
+
+.accent-darkblue{
+  color: #526485;
+}
+
+hr{
+  color: #111;
 }
 
 @media (max-width: 991px)
