@@ -30,10 +30,15 @@ header
   align-items: center;
 }
 
+.title-container{
+  position: absolute;
+  top: 0;
+  padding-top: 5rem;
+}
+
 header .logo
 {
   color: #fff;
-  cursor: pointer;
 }
 
 .mockup-container{
