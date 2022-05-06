@@ -120,6 +120,17 @@ header
   mix-blend-mode: overlay;
 }
 
+.overlay-learnmore
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000091;
+  mix-blend-mode: overlay;
+}
+
 .overlay-solution
 {
   position: absolute;
