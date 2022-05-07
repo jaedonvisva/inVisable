@@ -131,6 +131,14 @@ header
   mix-blend-mode: overlay;
 }
 
+.darken-on-hover{
+  transition: 0.5s;
+}
+
+.darken-on-hover:hover{
+  filter: brightness(25%);
+}
+
 .overlay-solution
 {
   position: absolute;
